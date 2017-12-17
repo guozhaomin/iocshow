@@ -8,7 +8,8 @@
         "build": "webpack",
         "build_plugin": "webpack --config ./tools/webpack.config.plugin.js --color",
         "dev": "webpack --config webpack.config.js --watch -d",
-        "serve": "webpack-dev-server --config webpack.dev.js --watch --open"
+        "serve": "webpack-dev-server --config webpack.dev.js --watch --open",
+        "serve_release": "webpack-dev-server --config webpack.release.js --watch --open"
     },
     "keywords": [
         "weex"
@@ -19,7 +20,7 @@
         "fs-extra": "^4.0.1",
         "vue": "^2.4.3",
         "weex-html5": "^0.4.1",
-        "weex-vue-render": "^0.12.21"
+        "weex-vue-render": "^0.12.25"
     },
     "devDependencies": {
         "babel-core": "^6.21.0",
